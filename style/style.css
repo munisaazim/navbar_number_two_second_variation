@@ -116,8 +116,14 @@ i :hover{
 input{
     display: none;
 }
+.icon{
+    display: none;
+}
 /*Responsive**/
 @media(max-width:889px){
+    .icon{
+        display: block;
+    }
     nav ul{
         margin-right: 0;
     }
